@@ -1,0 +1,15 @@
+The data/ sub-directory contains five further sub-directories:
+    • Scripts:
+        ◦ no_delay.sh: bash script for running the experiment where there is no delay. 
+        ◦ some_delay.sh: bash script for running the experiment where delay is a constant.
+        ◦ linear_increase_delay.sh: bash script for running the experiment where delay is increased linearly.
+        ◦ quadratic_increase_delay.sh: bash script for running the experiment where the delay is increased quadratically.
+        ◦ exponential_increase_delay.sh: bash script for running the experimetn where the delay is increased exponentially.
+        ◦ basic_stats.py: python code for getting the measurements and descriptive statistics tables as well as the graphs for measurements from no_delay.sh and some_delay.sh
+        ◦ basic_stats.py2: python code for getting the combined graph for all the measurements from no_delay.sh and some_delay.sh.
+        ◦ basic_stats.py3: python code for getting the measurements tables and the graphs for measurements from linear_increase_delay.sh, quadratic_increase_delay.sh and exponential_increase_delay.sh.
+        ◦ requirements.txt: contains the imports for the python files.
+    • CSVs: contains the measurements for each experiment in a CSV format which is the result of running iperf2.
+    • Tables: contains all the measurements and descriptive statistics tables from each experiment which.
+    • Graphs: contains all the graphs plotted for each experiment from the measurements stored in the CSVs.
+    • Screenshots: contains screenshots of the client’s and server’s terminal window after each type of experiment. 

@@ -1,0 +1,3 @@
+- basic_stats.py, basic_stats2.py and basic_stats3.py require the following imports:
+    pandas
+    matplotlib
